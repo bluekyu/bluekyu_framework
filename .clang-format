@@ -1,0 +1,29 @@
+﻿---
+BasedOnStyle: Google
+IndentWidth: 4
+---
+Language: Cpp
+AccessModifierOffset: -4
+AlignAfterOpenBracket: DontAlign
+AlignOperands: false
+AllowShortBlocksOnASingleLine: true
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Allman
+ColumnLimit: 0
+Cpp11BracedListStyle: false
+ContinuationIndentWidth: 4
+IndentCaseLabels: false
+IndentWrappedFunctionNames: false
+NamespaceIndentation: None
+PointerAlignment: Left
+SpaceAfterCStyleCast: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+Standard: Cpp11
+TabWidth: 4
+UseTab: Never
+...

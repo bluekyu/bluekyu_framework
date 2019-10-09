@@ -1,0 +1,8 @@
+#pragma once
+
+#define BLUEKYU_FRAMEWORK_VERSION "@bluekyu_framework_SEMANTIC_VERSION@"
+#define BLUEKYU_FRAMEWORK_VERSION_MAJOR @bluekyu_framework_VERSION_MAJOR@
+#define BLUEKYU_FRAMEWORK_VERSION_MINOR @bluekyu_framework_VERSION_MINOR@
+#define BLUEKYU_FRAMEWORK_VERSION_PATCH @bluekyu_framework_VERSION_PATCH@
+
+#define BLUEKYU_FRAMEWORK_GIT_COMMIT "@bluekyu_framework_GIT_COMMIT@"
