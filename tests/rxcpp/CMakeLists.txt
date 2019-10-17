@@ -35,8 +35,8 @@ set(${PROJECT_NAME}_RELWITHDEBINFO_POSTFIX "-reldeb" CACHE INTERNAL "Postfix str
 # ==================================================================================================
 
 # === target =======================================================================================
-#include("${PROJECT_SOURCE_DIR}/files.cmake")
-add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_WIN32} "${PROJECT_SOURCE_DIR}/src/main.cpp")
+include("${PROJECT_SOURCE_DIR}/files.cmake")
+add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_WIN32} ${${PROJECT_NAME}_sources} ${${PROJECT_NAME}_headers})
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_14)
 if(MSVC)
